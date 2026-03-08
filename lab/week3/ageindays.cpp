@@ -1,12 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-  float age, ageDays;
-  
-  cout<< "Enter age in years: "; cin>> age;
-  ageDays = age * 365;
-  cout << "Your age in Days is: " << ageDays<<endl;
-  
-  
-  
+  int age,age_indays;
+  cout<<"Your age is: ";
+  cin>>age;
+  age_indays =age*365;
+  cout<<"Your Age in Days is: "<<age_indays<<endl;
 };
